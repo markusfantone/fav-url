@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Vida AP",
+    "link": "https://servicos-aceitew.tokiomarine.com.br/aff/ctv/api/digita-vida-individual/#/seguro-acidentes-pessoais/",
+    "categories": ["Work"],
+    "tags": ["Vida"],
+    "env": "Aceite"
+  },
+  {
+    "title": "Vida Estagiario",
+    "link": "https://servicos-aceitew.tokiomarine.com.br/aff/ctv/api/digita-vida-individual/#/seguro-acidentes-pessoais-estagiario/",
+    "categories": ["Work"],
+    "tags": ["Vida"],
+    "env": "Aceite"
+  },
+  {
+    "title": "Vida AP",
+    "link": "http://srvprtapp001d:8085/aff/ctv/api/digita-vida-individual/#/seguro-acidentes-pessoais/",
+    "categories": ["Work"],
+    "tags": ["Vida"],
+    "env": "Dev"
+  },
+  {
+    "title": "Vida Estagiario",
+    "link": "http://srvprtapp001d:8085/aff/ctv/api/digita-vida-individual/#/seguro-acidentes-pessoais/",
+    "categories": ["Work"],
+    "tags": ["Vida"],
+    "env": "Dev"
+  },
+  {
+    "title": "UOL",
+    "link": "https://www.uol.com.br/",
+    "categories": ["Personal"],
+    "tags": ["Entretenimento"],
+    "env": null
+  }
+]

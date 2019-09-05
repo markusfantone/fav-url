@@ -1,0 +1,59 @@
+html{
+  font-family: 'Roboto', sans-serif;
+ }
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  li {
+    border: 1px #eaeaea solid;
+    height: 20vh;
+    flex: 1 0 21%;
+    float: left;
+    text-align: center;
+    margin-right: 1vw;
+    margin-bottom: 30px;
+
+    [header]{
+      background: #a0a0a0;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+    [pills] {
+    
+      font-size: 15px;
+      border-radius: 5px;
+      padding: 3px;
+      background-color: #eaeaea;
+      color: #fff;
+
+      &[orange] {
+        background-color: orange;
+      }
+      &[blue] {
+        background-color: blue;
+      }
+      &[env] {
+        padding-top: 2px;
+        padding-bottom: 2px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  ul{
+    li{
+      flex: 1 0 41%;
+      height: 40vh;
+    }
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  ul{
+    li{
+      flex: 1 0 31%;
+    }
+  }
+}
