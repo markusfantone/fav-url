@@ -1,16 +1,18 @@
-<input #myInput placeholder="Item name..." [(ngModel)]="name" (input)="filterUrls(myInput.value)" />
+<input
+  #myInput
+  placeholder="Item name..."
+  [(ngModel)]="name"
+  (input)="filterUrls(myInput.value)"
+/>
 
-<div >
-   
-</div>
+<div></div>
 <ul>
-			<li *ngFor="let item of filteredUrls">
-        <div header>{{item.env}}</div>
-        <div>
-          <h3>{{item.title}}</h3>
-          <p><a target="_blank" href="{{item.link}}">Visitar</a></p>
-          <span *ngFor="let tag of item.tags" pills>{{tag}}</span>
-          <span pills blue env>Aceite</span>
-        </div>
-			</li>
+  <li *ngFor="let item of filteredUrls">
+    <div header>{{item.title}}</div>
+    <div>
+      <p><a target="_blank" href="{{item.link}}">Visitar</a></p>
+      <span *ngFor="let tag of item.tags" pills>{{tag}}</span>
+      <span pills blue env>Aceite</span>
+    </div>
+  </li>
 </ul>

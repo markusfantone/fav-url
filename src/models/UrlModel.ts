@@ -3,5 +3,4 @@ export class UrlModel {
   link: string;
   categories: Array<string>;
   tags: Array<string>;
-  env: string;
 }

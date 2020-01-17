@@ -3,35 +3,48 @@
     "title": "Vida AP",
     "link": "https://servicos-aceitew.tokiomarine.com.br/aff/ctv/api/digita-vida-individual/#/seguro-acidentes-pessoais/",
     "categories": ["Work"],
-    "tags": ["Vida"],
-    "env": "Aceite"
+    "tags": ["Vida"]
   },
   {
     "title": "Vida Estagiario",
     "link": "https://servicos-aceitew.tokiomarine.com.br/aff/ctv/api/digita-vida-individual/#/seguro-acidentes-pessoais-estagiario/",
     "categories": ["Work"],
-    "tags": ["Vida"],
-    "env": "Aceite"
+    "tags": ["Vida"]
   },
   {
     "title": "Vida AP",
     "link": "http://srvprtapp001d:8085/aff/ctv/api/digita-vida-individual/#/seguro-acidentes-pessoais/",
     "categories": ["Work"],
-    "tags": ["Vida"],
-    "env": "Dev"
+    "tags": ["Vida"]
   },
   {
     "title": "Vida Estagiario",
     "link": "http://srvprtapp001d:8085/aff/ctv/api/digita-vida-individual/#/seguro-acidentes-pessoais/",
     "categories": ["Work"],
-    "tags": ["Vida"],
-    "env": "Dev"
+    "tags": ["Vida"]
+  },
+  {
+    "title": "Residencial - Cotador",
+    "link": "https://servicos-aceitew.tokiomarine.com.br/massificados/cotador-rd-digital",
+    "categories": ["Work"],
+    "tags": ["Residencial"]
+  },
+  {
+    "title": "Residencial - Cotador",
+    "link": "https://servicos-devz.tokiomarine.com.br/massificados/cotador-rd-digital",
+    "categories": ["Work"],
+    "tags": ["Residencial"]
+  },
+  {
+    "title": "Portal Parceiros",
+    "link": "https://portalparceiros-aceitew.tokiomarine.com.br/",
+    "categories": ["Work"],
+    "tags": ["Residencial", "Vida", "Corretor"]
   },
   {
     "title": "UOL",
     "link": "https://www.uol.com.br/",
     "categories": ["Personal"],
-    "tags": ["Entretenimento"],
-    "env": null
+    "tags": ["Entretenimento"]
   }
 ]
